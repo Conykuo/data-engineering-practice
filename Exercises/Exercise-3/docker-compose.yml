@@ -9,4 +9,6 @@ services:
     image: "exercise-3"
     volumes:
       - .:/app
+    env_file:
+      - .env
     command: python3 main.py

@@ -1,0 +1,4 @@
+- Change Python version from latest to python:3.12 to mitigate dependency compatibility mismatch between Python 3.14 and old boto3==1.21.2.
+- Common Crawl no longer allows anonymous S3 access. Authenticated AWS credentials are now required to access data via boto3.
+- Use BytesIO to load the first file in memory instead of saving it to disk.
+- Stream the second file line by line directly from S3 instead of downloading the whole file at once, saving memory (not disk) since we never store it locally.
