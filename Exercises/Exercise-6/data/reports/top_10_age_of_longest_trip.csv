@@ -1,0 +1,11 @@
+trip_id,start_time,end_time,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear,age
+25274293,2019-10-04 10:29:23,2019-12-14 18:05:37,6226,6165373.0,410,Prairie Ave & 43rd St,120,Wentworth Ave & Cermak Rd (Temp),Customer,Female,1987,39
+25501885,2019-10-20 17:10:47,2019-12-29 13:56:30,2566,6039942.0,337,Clark St & Chicago Ave,563,Ashland Ave & 63rd St,Customer,Male,1999,27
+25524486,2019-10-22 17:29:59,2019-12-21 12:30:21,21,5169622.0,175,Wells St & Polk St,671,HUBBARD ST BIKE CHECKING (LBS-WH-TEST),Subscriber,Female,1986,40
+25491716,2019-10-19 19:22:44,2019-12-14 10:14:15,1522,4809091.0,337,Clark St & Chicago Ave,438,Central Park Ave & Ogden Ave,Subscriber,Male,1994,32
+25533574,2019-10-23 12:54:45,2019-12-10 05:12:06,13,4123040.0,106,State St & Pearson St,11,Jeffery Blvd & 71st St,Customer,Male,1991,35
+25600899,2019-10-29 17:48:26,2019-12-09 08:33:11,356,3512685.0,69,Damen Ave & Pierce Ave,438,Central Park Ave & Ogden Ave,Customer,Female,1994,32
+25811874,2019-12-03 11:12:34,2020-01-10 01:06:36,1426,3246842.0,41,Federal St & Polk St,204,Prairie Ave & Garfield Blvd,Customer,Female,1982,44
+25740164,2019-11-20 10:49:35,2019-12-25 17:14:04,4842,3047069.0,289,Wells St & Concord Ln,671,HUBBARD ST BIKE CHECKING (LBS-WH-TEST),Customer,Female,1982,44
+25373613,2019-10-10 15:55:58,2019-11-13 07:20:51,518,2910292.0,377,Kedzie Ave & Lake St,529,Cicero Ave & Lake St,Customer,Male,1990,36
+25795531,2019-11-29 11:53:38,2019-12-30 20:10:04,4383,2708185.0,210,Ashland Ave & Division St,435,Kedzie Ave & Roosevelt Rd,Customer,"",1970,56

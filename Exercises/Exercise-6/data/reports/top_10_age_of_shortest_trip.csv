@@ -1,0 +1,11 @@
+trip_id,start_time,end_time,bikeid,tripduration,from_station_id,from_station_name,to_station_id,to_station_name,usertype,gender,birthyear,age
+25331482,2019-10-08 08:27:23,2019-10-08 08:28:25,124,61.0,449,Clark St & Columbia Ave,449,Clark St & Columbia Ave,Subscriber,Female,1993,33
+25328550,2019-10-08 06:31:12,2019-10-08 06:32:14,5136,61.0,91,Clinton St & Washington Blvd,91,Clinton St & Washington Blvd,Subscriber,Female,1967,59
+25368013,2019-10-10 08:43:24,2019-10-10 08:44:26,2874,61.0,210,Ashland Ave & Division St,210,Ashland Ave & Division St,Subscriber,Male,1993,33
+25261991,2019-10-03 16:15:32,2019-10-03 16:16:34,6339,61.0,212,Wells St & Hubbard St,672,Franklin St & Illinois St,Subscriber,Male,1985,41
+25372383,2019-10-10 14:32:43,2019-10-10 14:33:45,1847,61.0,110,Dearborn St & Erie St,110,Dearborn St & Erie St,Subscriber,Female,1990,36
+25292862,2019-10-05 15:14:50,2019-10-05 15:15:52,6090,61.0,178,State St & 19th St,178,State St & 19th St,Subscriber,Female,1998,28
+25380297,2019-10-10 22:47:06,2019-10-10 22:48:07,5397,61.0,328,Ellis Ave & 58th St,328,Ellis Ave & 58th St,Subscriber,Female,2000,26
+25241500,2019-10-01 20:14:42,2019-10-01 20:15:43,6029,61.0,293,Broadway & Wilson Ave,293,Broadway & Wilson Ave,Subscriber,Female,1981,45
+25382592,2019-10-11 08:26:18,2019-10-11 08:27:19,976,61.0,308,Seeley Ave & Roscoe St,308,Seeley Ave & Roscoe St,Subscriber,Male,1980,46
+25288024,2019-10-05 11:14:31,2019-10-05 11:15:33,4291,61.0,344,Ravenswood Ave & Lawrence Ave,344,Ravenswood Ave & Lawrence Ave,Subscriber,Male,1989,37
