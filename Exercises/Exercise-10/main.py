@@ -13,9 +13,15 @@ from pyspark.sql.types import (
     DoubleType,
     TimestampType,
 )
+import great_expectations as ge
+import inspect
+
 
 # Create a SparkSession
 spark = SparkSession.builder.appName("BikeRideDuration").getOrCreate()
+
+# Get the Great Expectation Data Context
+context = ge.get_context()
 
 # Define the schema based on the provided CSV structure
 schema = StructType([
@@ -61,6 +67,18 @@ df = df.withColumn(
 daily_durations = df.groupBy("date").agg(
     _sum("duration_seconds").alias("total_duration_seconds")
 )
+
+# Create a greate expectation validator
+datasource = context.data_sources.add_spark(name='datasource')
+data_asset = datasource.add_dataframe_asset(name="my_asset")
+batch_request = data_asset.build_batch_request(options={"dataframe": df})
+validator = context.get_validator(batch_request=batch_request)
+result = validator.expect_column_values_to_be_between(
+    column="duration_seconds", min_value=0, max_value=86400
+)
+if not result["success"]:
+    raise Exception("Data quality check failed. Ride duration should be between 0 and 86400.")
+
 
 output_parquet_path = "results/output_file.parquet"
 daily_durations.write.mode("overwrite").parquet(output_parquet_path)
